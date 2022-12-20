@@ -8,7 +8,7 @@
 import UIKit
 
 class ViewController: UITableViewController {
-    var stages = ["init()", "loadView()", "viewDdLoad()", "viewWillAppear()", "viewDidAppear()"]
+    var stages = ["init()", "loadView()", "viewDidLoad()", "viewWillAppear()", "viewDidAppear()", "viewDidDisappear()", "viewDidUnload()"]
     
     
     override func viewDidLoad() {
